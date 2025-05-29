@@ -1,4 +1,4 @@
-# ESCOTEL - Sitio Web Corporativo
+# ESCOTEL - Sitio Web
 
 ## Tecnologías Utilizadas
 
@@ -8,54 +8,28 @@
 - **JavaScript (Vanilla)** - Funcionalidades sin frameworks
 
 ### Librerías y Recursos Externos
-- **Google Fonts (Inter)** - Tipografía moderna
+- **Google Fonts (Inter)** - Tipografía
 - **Font Awesome** - Iconografía
 - **Google Maps** - Integración de mapas
-
-### Características Técnicas
-- **Smooth Scrolling** - Navegación fluida entre secciones
-- **Backdrop Filter** - Efectos de desenfoque glassmorphism
 
 ## Estructura del Sitio
 
 ### Secciones Principales
 
 1. **Header Navigation**
-   - Barra superior con información de contacto
-   - Navbar con logo y menú principal
-   - Menús desplegables organizados por categorías
 
 2. **Hero Section**
-   - Banner principal con imagen de fondo
-   - Efecto glassmorphism overlay
 
-3. **Soluciones** (`#soluciones`)
-   - Conectividad empresarial
-   - Seguridad de redes
-   - Comunicación unificada
+3. **Soluciones**
 
-4. **Servicios** (`#servicios`)
-   - Redes inalámbricas
-   - Centros de datos
-   - Soporte técnico 24/7
-   - Mapa de ubicación
+4. **Servicios**
 
 5. **Footer**
-   - Información corporativa
-   - Enlaces organizados por categorías
-   - Datos de contacto completos
 
-## Funciones JavaScript Importantes
 
-### 1. Toggle Menú Mobile
-```javascript
-// Manejo del menú hamburguesa en dispositivos móviles
-mobileMenuBtn.addEventListener('click', function() {
-    navLinks.classList.toggle('active');
-});
-```
+## Funciones JavaScript
 
-### 2. Smooth Scrolling
+### 1. Smooth Scrolling
 ```javascript
 // Navegación suave entre secciones ancla
 links.forEach(link => {
@@ -68,7 +42,7 @@ links.forEach(link => {
 });
 ```
 
-### 3. Navbar Scroll Effect
+### 2. Navbar Scroll Effect
 ```javascript
 // Efecto de transparencia en navbar al hacer scroll
 window.addEventListener('scroll', function() {
@@ -79,7 +53,7 @@ window.addEventListener('scroll', function() {
 });
 ```
 
-### 4. Click Outside Handler
+### 3. Click Outside Handler
 ```javascript
 // Cierra el menú mobile al hacer click fuera
 document.addEventListener('click', function(e) {
@@ -89,21 +63,8 @@ document.addEventListener('click', function(e) {
 });
 ```
 
-### Paleta de Colores
-- **Principal**: #b30000 (Rojo corporativo)
-- **Hover**: #e60000 / #cc0000
-- **Texto**: #1a1a1a (Negro suave)
-- **Fondo**: #f4f4f4 (Gris claro)
-
-### Efectos Visuales
-- **Glassmorphism**: Overlays con `backdrop-filter: blur()`
-
-### Responsividad
-- **Mobile Menu**: Menú de hamburguesa para navegación
-- **Grid Layout**: Con `auto-fit` y `minmax()`
-
 ### Google Maps
-- Iframe embebido con ubicación específica
+- Iframe con ubicación
 
 ### Redes Sociales
 - Iconos de Font Awesome con efectos hover
